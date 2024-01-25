@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+
+}
+
+/*Broad Strokes improvements*/
+html{
+    overflow-x: hidden;
+}
+
+main{
+    margin: 0 auto;
+    padding: 2em !important;
+}
+
+/*Particle JS header styles*/
+
+.background{
+    position:absolute;
+    display:block;
+    top:0;
+    left:0;
+    z-index:0;
+    height:100vh!important;
+    z-index: -1;
+}
+
+/*Small Improvments */
+
+nav{
+    padding: .75em;
+}
